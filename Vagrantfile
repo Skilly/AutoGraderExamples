@@ -10,7 +10,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.synced_folder ".", "/AutoGraderExamples"
   config.vm.provider "virtualbox" do |v|
     # Set as appropriate, can alter in VirtualBox Manager when shutdown
-    v.memory = 1024
-    v.cpus = 1
+    v.memory = 2048
+    v.cpus = 2
   end
 end
